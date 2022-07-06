@@ -1,0 +1,251 @@
+/* responsive css project**/
+html {  font-size: 20px;}
+
+
+body 
+{ 
+    
+    font-family: 'Neuton', serif;
+    background-color: white;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    max-width: 1024px;
+    font-weight: 900;}
+/* -top navigation*/
+
+.main-header { display: flex; 
+               flex-direction: column;
+               align-items: center;
+               border-radius: 5px 5px 3px;
+               box-shadow:1px 1px 1px rgb(234, 229, 229);
+               
+            }
+
+
+
+.top-nav { list-style-type: none; 
+           padding:5vh;
+           margin: auto;
+           color: black;}
+           
+li { border-radius: 10px 10px 10px;
+    box-shadow:2px 1px 1px rgb(234, 229, 229);
+    padding:2vh ;
+    margin:20px;
+    font-size: 2rem;
+    border:1px 
+
+}
+
+
+
+a:visited,a:link{ text-decoration: none; 
+                  color:black}
+
+
+
+a:hover{
+     color: rgba(255, 0, 0, 0.817);}
+
+
+
+
+#home,.top-nav { 
+    text-align: center;
+    display: flex; flex-direction: column;}
+
+
+
+
+.front-end { 
+    text-align: center;
+    background-color: rgb(234, 229, 229) ;}
+
+
+
+.main-img { display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: white;
+    margin: auto;
+    box-shadow:2px 1px 1px rgb(234, 229, 229);
+
+    
+}
+
+.layout-picture{ width: 80%;
+                flex-grow: 1;
+                flex-basis: 300px;
+                border: 12px solid whitesmoke;
+                align-self: center;}
+
+
+
+.front-end { flex-grow:0.5; 
+             flex-basis: 200px; padding-bottom: 10px;
+             background-color: white; height: fit-content;
+
+}
+
+
+.item{ margin-bottom: 5vh;
+    flex-basis: 200px;
+    border-radius: 5px 5px 3px;
+    box-shadow:1px 1px 1px rgb(234, 229, 229);}
+
+
+
+
+
+
+
+
+
+
+/* portfolio section */
+
+.para,.image-1,#portfolio{ text-align: center; 
+            justify-self: center;
+            margin: 1.5rem;
+ }
+
+
+ .main-content { display: flex; 
+                 flex-direction: column;
+                text-align: center;
+                margin:5vh 0;
+                border-radius: 5px 5px 3px;
+                box-shadow:1px 1px 1px rgb(234, 229, 229)}
+
+/* footer*/
+
+.main-footer { text-align: center;
+               padding:2vh;
+               background-color: rgb(255 252 252);
+               border-radius: 5px 5px 3px;
+               box-shadow:1px 1px 1px rgb(234, 229, 229)
+            }
+
+
+#contact {
+    margin-bottom: 2vh;}
+
+
+.bottom-nav { display: flex; padding: 8vh; justify-content: space-between;
+    border-radius: 5px 5px 3px;
+    box-shadow:1px 1px 1px rgb(234, 229, 229);
+    width: 90%; visibility: hidden;
+              
+      }
+
+
+
+
+
+ li { border-radius: 5px 5px 3px;
+    box-shadow:1px 1px 1px rgb(234, 229, 229);
+    padding:2vh 1vh ;
+    margin:20px;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+.image-1 { width: 200px}
+
+
+.nav-footer{ 
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10vh;
+     
+     
+}
+.name {margin-right:auto; } 
+
+    
+.contact { 
+    font-weight: 300;}
+
+address {
+     font-weight: bolder;}
+
+
+
+    
+
+
+
+
+
+
+
+/* media queries*/
+
+
+
+    
+    
+@media screen and  (min-width:768px){
+    
+.top-nav{ display: flex; flex-direction: row;}
+
+
+.main-img {  
+    
+    display: flex; flex-direction: row;
+     }
+
+
+     .main-content { display: flex; flex-direction: row; 
+        justify-content: center; flex-wrap: wrap }
+
+        .item {  flex-basis: 336px;}
+    
+
+.main-footer{ 
+    padding-top: 10px;}    
+
+.bottom-nav{ 
+    position: relative; visibility: visible;} 
+    
+.nav-footer { visibility: hidden;}
+
+}
+
+
+
+     
+  1
+
+@media screen and  (min-width:1024px){
+.main-header,.top-nav{ 
+    display: flex; 
+    flex-direction: row; 
+   }
+#home{ margin-right: auto;} 
+
+
+.main-img {  
+    
+    display: flex;
+    flex-direction: row;
+     }
+.front-end,.layout-picture {
+     margin: 5vw;}
+
+.main-content { display: flex; 
+    flex-direction: row;
+     flex-wrap: wrap; 
+    justify-content: center;}
+
+.item { 
+     flex-wrap: wrap;}
+
+
+
+
+
+
+
+
+}
