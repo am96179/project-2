@@ -194,6 +194,8 @@ address {
     
 .top-nav{ display: flex; flex-direction: row;}
 
+body{ width: max-content;}
+
 
 .main-img {  
     
