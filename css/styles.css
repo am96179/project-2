@@ -211,7 +211,8 @@ address {
     padding-top: 10px;}    
 
 .bottom-nav{ 
-    position: relative; visibility: visible;} 
+    position: relative; visibility: visible; margin:0;
+    padding-right:60px} 
     
 .nav-footer { visibility: hidden;}
 
