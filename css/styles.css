@@ -10,7 +10,11 @@ body
     letter-spacing: 0.1em;
     line-height: 1.5;
     max-width: 1024px;
-    font-weight: 900;}
+    font-weight: 900;
+    margin: 0 auto ;
+    width: max-content;
+    box-sizing: border-box;
+}
 /* -top navigation*/
 
 .main-header { display: flex; 
@@ -91,7 +95,8 @@ a:hover{
 .item{ margin-bottom: 5vh;
     flex-basis: 200px;
     border-radius: 5px 5px 3px;
-    box-shadow:1px 1px 1px rgb(234, 229, 229);}
+    box-shadow:1px 1px 1px rgb(234, 229, 229);
+    width:100%}
 
 
 
@@ -199,7 +204,7 @@ address {
      .main-content { display: flex; flex-direction: row; 
         justify-content: center; flex-wrap: wrap }
 
-        .item {  flex-basis: 336px;}
+        .item {  flex-basis: 350px;}
     
 
 .main-footer{ 
@@ -238,8 +243,8 @@ address {
      flex-wrap: wrap; 
     justify-content: center;}
 
-.item { 
-     flex-wrap: wrap;}
+   .item { 
+     flex-wrap: wrap;  flex-basis: 300px;}
 
 
 
